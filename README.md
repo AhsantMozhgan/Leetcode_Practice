@@ -1,14 +1,12 @@
-LeetCode
-========
+
+Solutions to [LeetCode](https://leetcode.com/problemset/) coding challenges.
+
 ---
 
 ## Languages
 
 Currently solving problems in 🐍 Python 3
 
----
-
-Solutions to [LeetCode](https://leetcode.com/problemset/) coding challenges.
 ---
 
 ## Problem List
