@@ -14,3 +14,14 @@ class Solution:
             num_to_index[num] = index  # Add number to the dictionary
             
         return []  # Return an empty list if no solution is found (though problem guarantees one solution)
+
+
+
+# “I’d use a hash map to store each number and its index as I iterate through the array.  
+
+# For every number, I calculate its complement — target minus the current number.  
+# If that complement is already in the map, I’ve found the pair, so I immediately return the stored index of the complement and the current index.  
+
+# If it’s not there, I just add the current number and its index to the map and keep going.  
+
+# This way I only make a single pass, so it’s O(n) time and O(n) extra space.”

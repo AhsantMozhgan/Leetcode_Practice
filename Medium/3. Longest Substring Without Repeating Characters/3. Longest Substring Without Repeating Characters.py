@@ -21,3 +21,12 @@ class Solution:
 
         return longest_length  # Return the length of the longest substring found
         
+
+# “I’d use a sliding window with two pointers and a set to keep track of the characters currently in the window.  
+
+# I move the right pointer forward one step at a time and try to add each new character to the set.  
+# If the character is already in the set, I shrink the window from the left: I remove characters and advance the left pointer until that duplicate is gone.  
+
+# After every move I update the maximum length I’ve seen so far, which is just `right - left + 1`.  
+
+# Because every character is added to the set at most once and removed at most once, the whole algorithm runs in O(n) time.”
